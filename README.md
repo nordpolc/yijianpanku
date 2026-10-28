@@ -3,6 +3,15 @@
 > 批次号清洗 + 自动套盘点模板，把 ERP 导出的即时库存表一键变成可打印的寄售库盘点表。
 > 作者：Eason Chen · 版本：v1.1.0
 
+## 下载
+
+| 版本 | 文件 | 说明 |
+|---|---|---|
+| 安装版 | [一键盘库_安装程序_v1.1.0.exe](https://github.com/nordpolc/yijianpanku/releases/download/v1.1.0/%E4%B8%80%E9%94%AE%E7%9B%98%E5%BA%93_%E5%AE%89%E8%A3%85%E7%A8%8B%E5%BA%8F_v1.1.0.exe) | 双击安装到 `%LOCALAPPDATA%\Programs\一键盘库`，带桌面/开始菜单快捷方式与卸载项 |
+| 免安装版 | [一键盘库_免安装版_v1.1.0.zip](https://github.com/nordpolc/yijianpanku/releases/download/v1.1.0/%E4%B8%80%E9%94%AE%E7%9B%98%E5%BA%93_%E5%85%8D%E5%AE%89%E8%A3%85%E7%89%88_v1.1.0.zip) | 解压即用，整文件夹拷走即可，`_internal` 不能删 |
+
+全部版本见 [Releases](https://github.com/nordpolc/yijianpanku/releases)。
+
 ![主界面](截图/01_待处理.png)
 
 ## 这个工具解决什么问题
