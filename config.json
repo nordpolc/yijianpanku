@@ -1,0 +1,156 @@
+{
+  "columns": {
+    "code": [
+      "物料编码",
+      "物料编号",
+      "存货编码",
+      "物料代码",
+      "产品编码",
+      "编码",
+      "物料号",
+      "itemcode",
+      "item"
+    ],
+    "name": [
+      "物料",
+      "物料名称",
+      "品名",
+      "产品名称",
+      "存货名称",
+      "名称",
+      "itemname"
+    ],
+    "spec": [
+      "规格型号",
+      "规格",
+      "型号",
+      "规格/型号",
+      "spec"
+    ],
+    "unit": [
+      "计量单位",
+      "单位",
+      "主计量单位",
+      "unit"
+    ],
+    "batch": [
+      "批次",
+      "批次号",
+      "批号",
+      "批号/序列号",
+      "批号或序列号",
+      "生产批号",
+      "lot",
+      "batch",
+      "batchno"
+    ],
+    "qty_avail": [
+      "可用数量",
+      "可用量",
+      "可用库存",
+      "结存数量",
+      "现存量",
+      "数量"
+    ],
+    "qty_stock": [
+      "库存数量",
+      "库存量",
+      "库存",
+      "结存",
+      "数量"
+    ],
+    "prod_date": [
+      "生产日期",
+      "生产时间",
+      "制造日期"
+    ],
+    "exp_date": [
+      "到期日期",
+      "有效期至",
+      "失效日期",
+      "到期日",
+      "有效期"
+    ],
+    "warehouse": [
+      "仓库",
+      "仓库名称",
+      "库房",
+      "存货仓库",
+      "warehouse"
+    ],
+    "inv_type": [
+      "库存类型",
+      "库存类别",
+      "业务类型"
+    ],
+    "inv_status": [
+      "库存状态",
+      "状态"
+    ],
+    "serial": [
+      "序列号",
+      "序号号",
+      "serial"
+    ],
+    "book_qty": [
+      "账面数量",
+      "账面数",
+      "账面"
+    ],
+    "count_qty": [
+      "盘点数量",
+      "实盘数量",
+      "实盘数",
+      "盘点数"
+    ],
+    "diff_qty": [
+      "差异数量",
+      "差异",
+      "差异数"
+    ],
+    "seq": [
+      "序号",
+      "行号",
+      "no"
+    ],
+    "remark": [
+      "备注",
+      "说明",
+      "remark"
+    ]
+  },
+  "merge_keys": [
+    "code",
+    "name",
+    "spec",
+    "unit",
+    "warehouse",
+    "inv_type",
+    "inv_status",
+    "batch",
+    "prod_date",
+    "exp_date"
+  ],
+  "sum_columns": [
+    "qty_avail",
+    "qty_stock"
+  ],
+  "skip_clean_prefixes": [
+    "09.203"
+  ],
+  "template_title": "{year}年 {warehouse}产成品盘点表",
+  "template_title_placeholder": "XX寄售库(XX)",
+  "code20_regex": "^\\d{2}\\.\\d{3}\\.\\d{2}\\.20",
+  "sheet_names": {
+    "raw": "原始数据",
+    "clean": "清洗后",
+    "rowdata": "ROW_DATA",
+    "doc": "清洗规则说明",
+    "merge": "合并明细"
+  },
+  "formal_sheet_keep": [
+    "账面数量",
+    "无实物数量需报消耗"
+  ],
+  "warehouse_default": "运营一库"
+}

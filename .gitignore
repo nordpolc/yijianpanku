@@ -1,0 +1,16 @@
+# 打包产物
+dist/
+build/
+*.spec
+__pycache__/
+*.pyc
+
+# 运行输出
+输出/
+_test_out/
+*.log
+
+# 系统
+Thumbs.db
+desktop.ini
+.DS_Store
